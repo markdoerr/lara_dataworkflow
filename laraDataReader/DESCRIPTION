@@ -1,0 +1,11 @@
+Package: laraDataReader
+Title: Reading Various Laboratory Device File Formats and plate layouts
+Version: 0.0.1
+Authors@R: "mark.doerr <mark.doerr@uni-greifswald.de> [aut, cre]"
+Description: Currently supported readers are: BMG omega, Thermo Varioskan,
+Depends:
+    R (>= 3.0.2)
+Imports:
+    rgl (>= 0.93.0)
+License: GPL-3
+LazyData: true
