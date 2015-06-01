@@ -1,0 +1,13 @@
+"# Barcodes: 0024",,,,,,
+"# Description: This is a template file for plate layouts. It can be directly edited with a plain text editor or in a spread sheet program",,,,,,
+"# rows=4; colums=6",,,,,,
+"# Entry format: Type:Description; supported types: S: sample; R: reference; pCTRL: postitive control; nCTRL: negative control; BL: blank; 0: empty well",,,,,,
+"# in case ALL fields of the substrate, cofactor or enzyme specifications are  empty, the standard concentrations in the header comment are  assumed for all fields. ",,,,,,
+"# A zero (0) in a field means that no Substrate/Cofactor/Enzyme was added => concentration = 0. Conc.",,,,,,
+"# NA means, concentration was not determined. NA is also assumed, if no header concentration is given.",,,,,,
+"# Standard concentration unit is mM",,,,,,
+"HEAD_DESCR",1,2,3,4,5,6
+"A","R: WT","0: 24well","0: 24well","0: 24well","0: 24well","0: 24well"
+"B","R: WT","0: 24well","0: 24well","0: 24well","0: 24well","0: 24well"
+"C","BL: blank","0: 24well","0: 24well","0: 24well","0: 24well","0: 24well"
+"D","0: not related","0: 24well","0: 24well","0: 24well","0: 24well","0: 24well"

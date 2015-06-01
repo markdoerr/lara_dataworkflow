@@ -2,19 +2,19 @@
 #
 # PROJECT: LARA
 # CLASS: 
-# FILENAME: plateReader.R
+# FILENAME: laraDataReader_demo.R
 #
 # CATEGORY:
 #
 # AUTHOR: mark doerr
 # EMAIL: mark@ismeralda.org
 #
-# VERSION: 0.0.2
+# VERSION: 0.0.1
 #
 # CREATION_DATE: 2015/06/01
 # LASTMODIFICATION_DATE: 2015/06/01
 #
-# BRIEF_DESCRIPTION: Library for reading liquid chromatography data
+# BRIEF_DESCRIPTION: Demo of the laraDataReader package
 # DETAILED_DESCRIPTION: 
 # HISTORY: 
 #
@@ -35,3 +35,15 @@
 
 printDebug <- function(...) cat(sprintf(...), '\n' ,sep='', file=stdout())
 
+library("laraDataReader")
+
+setwd("./")
+
+# layout matrix is determined by the layout file 
+pl96well = loadPlateLayout(barcode="0005")
+
+print(pl96well)
+
+pl24well = loadPlateLayout(barcode="0051")
+
+print(pl24well)

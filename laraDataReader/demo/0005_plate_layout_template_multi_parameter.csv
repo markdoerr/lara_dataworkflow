@@ -1,0 +1,57 @@
+"# Barcodes: 0003;0005;0007-0012",,,,,,,,,,,,
+"# Description: This is a template file for plate layouts. It can be directly edited with a plain text editor or in a spread sheet program",,,,,,,,,,,,
+"# rows=8 ; colums=12",,,,,,,,,,,,
+"# Entry format: Type:Description; supported types: S: sample; R: reference; pCTRL: postitive control; nCTRL: negative control; BL: blank; 0: empty well",,,,,,,,,,,,
+"# in case ALL fields of the substrate, cofactor or enzyme specifications are  empty, the standard concentrations in the header comment are  assumed for all fields. ",,,,,,,,,,,,
+"# A zero (0) in a field means that no Substrate/Cofactor/Enzyme was added => concentration = 0. Conc.",,,,,,,,,,,,
+"# NA means, concentration was not determined. NA is also assumed, if no header concentration is given.",,,,,,,,,,,,
+"# Standard concentration unit is mM",,,,,,,,,,,,
+"HEAD_DESCR",1,2,3,4,5,6,7,8,9,10,11,12
+"A","R: WT","0: not related","BL: blank","0: not related","0: not related","0: not related","S:PLE3-WT","S:PLE3-WT","S:PLE3-WT","S:PLE3-WT","S:PLE3-WT","S:PLE3-WT"
+"B","R: WT","0: not related","0: not related","0: not related","0: not related","0: not related","S:PLE3-sG clon 11","S:PLE3-sG clone 11","S:PLE3-sG clone 11","S:PLE3-sG clone 11","S:PLE3-sG clone 11","S:PLE3-sG clone 11"
+"C","BL: blank","0: not related","0: not related","0: not related","0: not related","0: not related","S:PLE3-sG clon 25","S:PLE3-sG clon 25","S:PLE3-sG clon 25","S:PLE3-sG clon 25","S:PLE3-sG clon 25","S:PLE3-sG clon 25"
+"D","0: not related","0: not related","0: not related","0: not related","0: not related","0: not related","S:PLE3-sG clon 34","S:PLE3-sG clon 34","S:PLE3-sG clon 34","S:PLE3-sG clon 34","S:PLE3-sG clon 34","S:PLE3-sG clon 34"
+"E","0: not related","0: not related","0: not related","0: not related","0: not related","0: not related","nCTRL: Vfl-TA WT","nCTRL: Vfl-TA WT","nCTRL: Vfl-TA WT","nCTRL: Vfl-TA WT","nCTRL: Vfl-TA WT","nCTRL: Vfl-TA WT"
+"F","0: not related","0: not related","0: not related","0: not related","0: not related","0: not related","S:CHMO-WT","S:CHMO-WT","S:CHMO-WT","S:CHMO-WT","S:CHMO-WT","S:CHMO-WT"
+"G","0: not related","0: not related","0: not related","0: not related","0: not related","0: not related","S:CHMO-sG","S:CHMO-sG","S:CHMO-sG","S:CHMO-sG","S:CHMO-sG","S:CHMO-sG"
+"H","0: not related","0: not related","0: not related","0: not related","0: not related","0: not related","nCTRL: buffer only","nCTRL: buffer only","nCTRL: buffer only","nCTRL: buffer only","nCTRL: buffer only","nCTRL: buffer only"
+"# Substrates 1:  (S+)-1PBA =  ",,,,,,,,,,,,
+"HEAD_SUBSTR1",1,2,3,4,5,6,7,8,9,10,11,12
+"A","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA","S-PPA"
+"B","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA: 0.3","S-PPA: 0.3","S-PPA: 0.3","S-PPA: 0.3","S-PPA: 0.3"
+"C","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA","S-PPA"
+"D","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA","S-PPA"
+"E","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA: 0.7","S-PPA: 0.7","S-PPA: 0.7","S-PPA: 0.7","S-PPA: 0.7"
+"F","S-PBA: 0.1","S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA","S-PPA"
+"G",0,"S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA",0
+"H",0,"S-PBA","S-PBA","S-PBA","S-PBA",0,"S-PPA","S-PPA","S-PPA","S-PPA","S-PPA",0
+"# Substrates 2: pyruvate  = ",,,,,,,,,,,,
+"HEAD_SUBSTR2",1,2,3,4,5,6,7,8,9,10,11,12
+"A","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"B","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"C","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"D","pyruvate : 0.45","pyruvate : 0.46","pyruvate : 0.47","pyruvate : 0.48","pyruvate : 0.49","pyruvate : 0.50","propanal","propanal","propanal","propanal","propanal","propanal"
+"E","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"F","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"G",0,0,0,0,0,0,"propanal","propanal","propanal","propanal","propanal","propanal"
+"H","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","pyruvate","propanal","propanal","propanal","propanal","propanal","propanal"
+"# Cofactors: PLP(1)= ",,,,,,,,,,,,
+"HEAD_COFACT",1,2,3,4,5,6,7,8,9,10,11,12
+"A","PLP:33.3","PLP","PLP","PLP","PLP",0,"NADPH : 0.3","NADPH : 0.4","NADPH : 0.5","NADPH : 0.6","NADPH : 0.7","NADPH : 0.8"
+"B","PLP:33.4","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH","NADPH","NADPH","NADPH"
+"C","PLP:33.5","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH","NADPH","NADPH","NADPH"
+"D","PLP:33.6","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH",0,"NADPH","NADPH"
+"E","PLP:33.7","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH",0,"NADPH","NADPH"
+"F","PLP:33.8","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH",0,"NADPH","NADPH"
+"G","PLP:33.9","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH","NADPH","NADPH","NADPH"
+"H","PLP:33.10","PLP","PLP","PLP","PLP",0,"NADPH","NADPH","NADPH","NADPH","NADPH","NADPH"
+"# Enzyme Concentrations: 2+ATAVflWT = 0.123  ",,,,,,,,,,,,
+"HEAD_ENZYME",1,2,3,4,5,6,7,8,9,10,11,12
+"A"," ATAVflWT:42.0"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"B"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"C"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"D"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"E"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"F"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"G"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
+"H"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT"," ATAVflWT","CHMO","CHMO","CHMO","CHMO","CHMO","CHMO"
